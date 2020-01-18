@@ -1,0 +1,31 @@
+body {
+    padding: 20px;
+}
+
+/* .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-flow: column;
+} */
+
+.grid {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(autofill, 1fr);
+    grid-gap: 20px;
+    grid-auto-flow: column;
+}
+
+
+li {
+    box-sizing: border-box;
+    border: solid 2px #777;
+    background: #ccc;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    list-style-type: none;
+}

@@ -1,0 +1,19 @@
+body {
+    padding: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+}
+
+li {
+    box-sizing: border-box;
+    border: solid 2px #777;
+    list-style-type: none;
+    background: #ccc;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}

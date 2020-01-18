@@ -1,0 +1,20 @@
+body {
+    padding: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr 2fr 3fr);
+    grid-gap: 10px;
+}
+
+li {
+    box-sizing: border-box;
+    border: solid 2px #777;
+    background: #ccc;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    list-style-type: none;
+}

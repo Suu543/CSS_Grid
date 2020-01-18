@@ -1,0 +1,26 @@
+.container {
+    display: grid;
+    grid-gap: 10px;
+    height: 180px;
+    margin-bottom: 10px;
+}
+
+.min-content {
+    grid-template-columns: auto min-content auto;
+}
+
+.max-content {
+    grid-template-columns: auto max-content auto;
+}
+
+.aside {
+    background: yellow
+}
+
+.main-content {
+    background: red;
+    padding: 10px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
